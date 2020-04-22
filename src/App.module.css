@@ -1,0 +1,25 @@
+body {
+  background: url(./images/covidBG.jpg), rgba(240, 240, 240, 0.875);
+  background-size: 40%;
+  background-blend-mode: saturation;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
