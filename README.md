@@ -1,10 +1,16 @@
 # COVID-19 Tracker
 
-![COVID-19 Tracker](https://i.ibb.co/X87BqVY/Screenshot-2020-04-13-at-10-14-58.png)
+![COVID-19 Tracker](https://raw.githubusercontent.com/CrappyCodeMaker/Corona-Tracker/master/src/images/preview.jpg?token=AOS35XBCVX7KGZBA2PMJ2UC6UBI62)
 
-### [Live Site](https://covid19statswebsite.netlify.com/)
+---
 
-API used: https://covid19.mathdro.id/api
+---
+
+### API used: [api link](https://covid19.mathdro.id/api)
+
+### VIDEO tutorial: [JavaScript Mastery](https://www.youtube.com/watch?v=khJlrj3Y6Ls&list=WL&index=33&t=888s)
+
+### ORIGINAL reposity: [project_corona_tracker](https://github.com/adrianhajdin/project_corona_tracker)
 
 Setup:
 
