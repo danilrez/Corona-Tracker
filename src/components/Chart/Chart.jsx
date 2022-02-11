@@ -44,20 +44,27 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   const lineChart = dailyData[0] ? (
     <Line
       data={{
-        labels: dailyData.map(({ date }) => date),
+        labels: dailyData.map(({ date }) => new Date(date).toLocaleDateString()),
         datasets: [
           {
             data: dailyData.map((data) => data.confirmed),
             label: 'Infected',
-            borderColor: 'rgb(65, 105, 225)',
-            backgroundColor: 'rgba(65, 105, 225, 0.15)',
+            borderColor: '#46e',
+            backgroundColor: '#4169e13f',
             fill: true,
           },
           {
             data: dailyData.map((data) => data.deaths),
             label: 'Deaths',
-            borderColor: 'rgb(230, 40, 30)',
-            backgroundColor: 'rgba(230, 40, 30, 0.45)',
+            borderColor: '#e31',
+            backgroundColor: '#e6281e3f',
+            fill: true,
+          },
+          {
+            data: dailyData.map((data) => data.recovered),
+            label: 'Recovered',
+            borderColor: '#008000',
+            backgroundColor: '#00ff003f',
             fill: true,
           },
         ],
@@ -65,9 +72,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     />
   ) : null;
 
-  return (
-    <div className={styles.container}>{country ? barChart : lineChart}</div>
-  );
+  return <div className={styles.container}>{country ? barChart : lineChart}</div>;
 };
 
 export default Chart;
