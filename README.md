@@ -4,8 +4,6 @@
 
 ---
 
----
+The old project for learning how to fetch data from API
 
 #### API used: [api link](https://covid19.mathdro.id/api)
-
-#### VIDEO tutorial: [JavaScript Mastery](https://www.youtube.com/watch?v=khJlrj3Y6Ls&list=WL&index=33&t=888s)
