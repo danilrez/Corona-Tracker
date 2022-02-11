@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url(./images/covidBG.jpg), rgba(240, 240, 240, 0.875);
   background-size: 40%;
